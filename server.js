@@ -39,7 +39,7 @@ app.get("/", (req, res) => {
 
 app.listen(port, () => {
     try {
-        console.log(`Server is runnindg http://localhose:${port}`)
+        console.log(`Server is running http://localhose:${port}`)
     } catch (error) {
         console.log(error);
     }
