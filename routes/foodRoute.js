@@ -19,6 +19,6 @@ const storage = multer.diskStorage({
 
 foodRouter.get("/list", listFood)
 
-foodRouter.post("/remove", removeFood)
+// foodRouter.post("/remove", removeFood)
 
 export default foodRouter
