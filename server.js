@@ -41,3 +41,5 @@ app.use("/api/order", orderRouter)
 app.get("/", (req, res) => {
     res.send("Testing server")
 })
+
+module.exports = app
