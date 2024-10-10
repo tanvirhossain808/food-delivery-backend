@@ -23,7 +23,6 @@ connectDB()
     .then(() => {
         app.listen(port, () => {
             try {
-                console.log(process.env.post, "oi")
                 console.log(`Server is running http://localhose:${port}`)
             } catch (error) {
                 console.log(error)
