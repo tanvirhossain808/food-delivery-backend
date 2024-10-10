@@ -42,4 +42,4 @@ app.get("/", (req, res) => {
     res.send("Testing server")
 })
 
-export default app
+// export default app
