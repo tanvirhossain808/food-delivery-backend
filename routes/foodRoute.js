@@ -12,13 +12,13 @@ const storage = multer.diskStorage({
     },
 })
 
-// const uploads = multer({
-//     storage: storage
-// })
-// foodRouter.post("/add", uploads.single("image"), addFood)
+const uploads = multer({
+    storage: storage,
+})
+foodRouter.post("/add", uploads.single("image"), addFood)
 
 foodRouter.get("/list", listFood)
 
-// foodRouter.post("/remove", removeFood)
+foodRouter.post("/remove", removeFood)
 
 export default foodRouter

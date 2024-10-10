@@ -43,16 +43,6 @@ app.use("/api/user", userRouter)
 app.use("/api/cart", cartRouter)
 app.use("/api/order", orderRouter)
 
-app.use("/", (req, res) => {
-    res.send("Testing server")
-})
-
-// export default app
-// app.listen(port, () => {
-//     // try {
-//     //     console.log(`Server is running http://localhose:${port}`)
-//     // } catch (error) {
-//     //     console.log(error)
-//     // }
-//     console.log("server is ready")
+// app.use("/", (req, res) => {
+//     res.send("Testing server")
 // })
