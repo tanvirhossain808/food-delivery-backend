@@ -42,4 +42,4 @@ app.get("/", (req, res) => {
     res.send("Testing server")
 })
 
-module.exports = app
+export default app
